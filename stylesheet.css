@@ -1,0 +1,27 @@
+body {
+	background-color: #D3D3D3;
+	color: #666666;
+}
+header {
+	background-color: #89CFF0;
+	color: #FFFFFF;
+}
+nav {
+	background-color: #add8e6;
+}
+h2 {
+	color: #FFFFFF;
+}
+h1 {
+	margin-bottom: 0;
+}
+main {
+	background-color: #D3D3D3;
+	color: #FFFFFF;
+}
+footer {
+	color: #FFFFFF;
+}
+h3 {
+	background-color: #add8e6
+}
