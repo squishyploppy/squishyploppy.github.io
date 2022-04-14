@@ -20,26 +20,20 @@
 			</ul>
 		</nav>
 		<main>
-			<p>
-				Our promise to you is to deliver the most breath-taking
-				energizing drink ever.<br> We accomplish this by partnering
-				with the world’s leading fitness experts. <br> Try our beverage
-				and you will experience the pump you have been looking for
-				your whole life.
-			</p>
-			<h3>Our Partners</h3>
-			<ul>
-				<li>Aziz Shavershian </li>
-				<li>Ryan Schmidle </li>
-				<li>Marco Spasiano </li>
-				<li>Noel Deyzel </li>
-			</ul>
+			<p>Required fields are marked with an asterisk *</p>
 
-			<img src="caffeine.png" alt="caffeine picture">
-			<img id="pump" src="pump.png" alt="pump image">
-			<img id="steroids" src="steroids.png" alt="steroids image">
+			<form method="post" action="https://webdevbasics.net/scripts/demo.php">
+				<label for="fname">First Name</label>
+				<input type="text" id="fname" name="fname"><br>
 
+				<label for="onumber">Order Number*</label>
+				<input type="number" id="onumber" name="onumber" required><br>
 
+				<label for="wwrong">Whats Wrong*</label>
+				<input type="text" id="wwrong" name="wwrong" required><br>
+
+				<input type="submit">
+			</form>
 		</main>
 		<footer>
 			<small><i>
